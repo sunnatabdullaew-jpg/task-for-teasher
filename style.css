@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(45deg , rgba(221, 51, 255, 0.966) , blue , rgb(255, 255, 115));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-box {
+    background: rgb(82, 255, 255);
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.profile-box h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.profile-box p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.back {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px 120px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+} .list {
+    display: flex;
+    gap: 10px;
+}
