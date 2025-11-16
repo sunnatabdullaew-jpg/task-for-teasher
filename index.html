@@ -7,16 +7,43 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <form class="profile">
+        <h1 class="title">Fill the inputs</h1>
+        <input type="text" id="name" placeholder="Sunnat" class="profile__input">
+        <input type="date" required id="date" placeholder="Sunnat" class="profile__input">
+        <input type="email" id="email" placeholder="@example.com" required class="profile__input">
+        <input type="number" id="age" placeholder="2010" class="profile__input">
 
-    <div class="profile-box">
-        <h2>profil</h2>
+        <div class="males">
+        <button id="male" class="male">Male</button>
+        <button id="female" class="female">Female</button>
+        <button id="other" class="other">Other</button>
+        </div>
+
+       <div class="buttons">
+         <button id="save" class="btn__save">Save</button>
+        <button id="clear" class="btn__clear">Clear</button>
+       </div>
+    </form>
+    <div class="moon">
+    </div>
+    <div class="orbit">
+        <div class="metiorete">
+        </div>
+    </div>
+    <form class="profile-box">
+        <h2>Profile Result</h2>
         <ul class="list">
             <p><strong>name:</strong> <span id="profile-name"></span></p>
             <p><strong>data:</strong> <span id="profile-date"></span></p>
             <p><strong>gmail:</strong> <span id="profile-email"></span></p>
             <p><strong>age:</strong> <span id="profile-age"></span></p>
+            <p><strong>Gender:</strong> <span id="profile-gender"></span></p>
         </ul>
-    </div>
+        <div class="buttons">
+         <button id="profile-clear" class="btn__save">Clear</button>
+       </div>
+    </form>
     <noscript>js is disabled</noscript>
     <script src="/index.js"></script>
 </body>
