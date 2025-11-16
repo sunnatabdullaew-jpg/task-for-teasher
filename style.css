@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 1300px;
   margin: 0;
   padding: 0;
 }
@@ -182,4 +182,27 @@ body {
   top: -20%;
   right: 0%;
   left: 1500px;
+}
+@media only screen and (max-width: 500px) {
+  body{
+    overflow: visible;
+    height: 1200px;
+  }
+  .moon {
+    display: none;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    width: 80%;
+    margin-left: 0px;
+  }
+  .profile-box{
+    width: 95%;
+    margin-left: -10px;
+    margin-top: 50px;
+  }
+  
 }
